@@ -1,0 +1,48 @@
+header,
+footer {
+    background-color: #333333;
+    color: #ffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #333333;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0px 20px #020202;
+}
+
+section {
+    margin: 10px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: #D9D9D9;
+    font-size: 16px;
+}
+
+section p {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px 0;
+}
+
+footer {
+    font-size: 14px;
+}
