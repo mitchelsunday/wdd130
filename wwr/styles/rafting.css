@@ -31,6 +31,10 @@ footer {
     font-family: var(--body-font);
 }
 
+#header nav {
+    color: var(--accent2-color);
+}
+
 header {
     background-color: var(--accent2-color);
     color: var(--accent2-color);
@@ -48,6 +52,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+
 }
 
 .socialmedia a {
