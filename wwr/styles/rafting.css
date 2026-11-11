@@ -31,7 +31,7 @@ footer {
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     color: var(--accent2-color);
 }
 
@@ -71,7 +71,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
     /* white text – make sure there is enough contrast with the background-color */
 }
 
@@ -89,7 +89,7 @@ h1 {
 section h2,
 section h3 {
     background-color: var(--primary-color);
-    color: #fff;
+    color: var(--accent2-color);
     text-align: center;
     padding: 12px;
     margin: 0 0 10px 0;
