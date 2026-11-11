@@ -1,10 +1,14 @@
 /* 1. CSS Variables Definition */
 :root {
     --primary-color: #064663;
+    /* forest green */
     --secondary-color: #E9C46A;
+    /* warm sand */
     --accent1-color: #1D3557;
+    /* dark slate blue */
     --accent2-color: #F1FAEE;
-    --heading-font: Georgia, "Times New Roman", serif;
+    /* light golden yellow */
+    --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
