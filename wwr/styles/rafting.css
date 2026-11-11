@@ -82,7 +82,20 @@ h1 {
     color: var(--accent1-color);
 }
 
+section h2,
+section h3 {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    margin: 0 0 10px 0;
+}
+
 .hero article img {
     float: right;
     width: 125px;
+}
+
+.socialmedia a {
+    text-decoration: none;
 }
