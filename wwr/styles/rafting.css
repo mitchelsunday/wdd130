@@ -32,7 +32,7 @@ footer {
 }
 
 #header nav {
-    color: var(--accent2-color);
+    background-color: var(--secondary-color);
 }
 
 header {
