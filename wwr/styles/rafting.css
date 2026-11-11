@@ -28,6 +28,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    font-family: var(--body-font);
 }
 
 header {
