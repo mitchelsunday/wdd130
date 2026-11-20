@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+header,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
 body {
     font-size: 16px;
     font-family: Roboto, arial, sans-serif;
@@ -12,12 +23,19 @@ body {
 nav {
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+
 }
 
 h1 {
@@ -31,6 +49,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    grid-column: 2;
     margin: 0 0 1rem 1rem;
 }
 
@@ -40,6 +59,7 @@ p {
 
 main {
     max-width: 840px;
+    grid-column: 2;
 }
 
 aside {
@@ -50,6 +70,9 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
+    grid-row: 1;
+    grid-column: 1;
 }
 
 aside img {
