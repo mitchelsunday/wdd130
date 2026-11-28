@@ -223,7 +223,7 @@ footer p {
 
 .contact header {
     background-color: var(--wireframe-purple);
-    color: #111;
+    color: var(--accent1-color);
 }
 
 .contact footer {
