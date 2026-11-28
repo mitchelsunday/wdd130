@@ -1,4 +1,232 @@
-/* 1. CSS Variables Definition */
+.contact-page {
+    --wireframe-purple: #d9c9ff;
+}
+
+.contact-page header {
+    background-color: var(--wireframe-purple);
+    color: #111;
+}
+
+.contact-page footer {
+    background-color: var(--wireframe-purple);
+}
+
+.contact-page .navigation {
+    border: 1px solid #555;
+    border-radius: 6px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.contact-page .navigation li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #555;
+}
+
+.contact-page .navigation li:last-child {
+    border-right: none;
+}
+
+.contact-page .navigation a {
+    padding: 10px;
+    color: #111;
+    font-size: 0.9rem;
+}
+
+.contact-page .company-info {
+    text-align: center;
+    margin: 16px 0 12px;
+    padding: 0;
+}
+
+.contact-page .company-info h1 {
+    position: static;
+    /* cancels the global absolute h1 */
+    width: auto;
+    padding: 0;
+    margin: 0 0 6px;
+    opacity: 1;
+    background: none;
+    color: #111;
+    font-family: var(--body-font);
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.contact-page .company-info p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #111;
+}
+
+.contact-page .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 0 0 16px;
+    padding: 0;
+    align-items: start;
+}
+
+.contact-page .map-container {
+    height: 295px;
+    border: 1px solid #ccc;
+    background-color: #e0e0e0;
+}
+
+.contact-page .map-container iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.contact-page .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 0.85rem;
+    color: #111;
+}
+
+.contact-page .form-row {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-page .contact-form input[type="text"],
+.contact-page .contact-form input[type="email"],
+.contact-page .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-family: var(--body-font);
+    font-size: 0.85rem;
+}
+
+.contact-page fieldset.form-row {
+    display: flow-root;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-page fieldset legend {
+    float: left;
+    width: 80px;
+    padding: 0;
+    margin-top: 18px;
+}
+
+.contact-page .radio-group {
+    margin-left: 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.contact-page .radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-page .message-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-page .message-group textarea {
+    height: 85px;
+    resize: vertical;
+}
+
+.contact-page .checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contact-page .submit-btn {
+    width: 100%;
+    padding: 8px;
+    background-color: #eee;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-family: var(--body-font);
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+
+.contact-page .submit-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.contact-page .employees-section {
+    background-color: #f2f2f2;
+    border: 1px solid #888;
+    margin: 0;
+    padding: 12px 16px 16px;
+}
+
+.contact-page .employees-section h2 {
+    background: none;
+    color: #111;
+    font-family: var(--body-font);
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 0 0 12px;
+}
+
+.contact-page .employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    justify-items: center;
+}
+
+.contact-page .employee-card {
+    margin: 0;
+    text-align: center;
+}
+
+.contact-page .employee-card img {
+    display: block;
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    background-color: #dcdcdc;
+    margin: 0 auto 6px;
+}
+
+.contact-page .employee-card figcaption {
+    font-size: 0.8rem;
+    color: #111;
+}
+
+@media (max-width: 860px) {
+
+    .contact-page header,
+    .contact-page main,
+    .contact-page footer {
+        width: 100%;
+    }
+
+    .contact-page .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* about page */
 :root {
     --primary-color: #064663;
     /* forest green */
